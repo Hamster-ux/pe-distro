@@ -1,0 +1,29 @@
+{
+  "$schema": "file:///D:/helios/PE/distro/schemas/ServerMetaSchema.schema.json",
+  "meta": {
+    "version": "1.0.0",
+    "name": "PE (Minecraft 1.12.2)",
+    "description": "PE Running Minecraft 1.12.2 (Forge v14.23.5.2860)",
+    "icon": "https://raw.githubusercontent.com/Hamster-ux/pe-distro/main/icon.png",
+    "address": "121.149.177.201",
+    "discord": {
+      "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+      "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+      "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+    },
+    "mainServer": true,
+    "autoconnect": true
+  },
+  "forge": {
+    "version": "14.23.5.2860"
+  },
+  "untrackedFiles": [
+	{
+		"appliesTo": ["files"],
+		"patterns": [
+		  "options.txt",
+		  "servers.dat"
+		]
+	}
+  ]
+}
