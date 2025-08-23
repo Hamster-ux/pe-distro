@@ -12,7 +12,7 @@
       "name": "PE (Minecraft 1.12.2)",
       "description": "PE Running Minecraft 1.12.2 (Forge v14.23.5.2860)",
       "icon": "https://raw.githubusercontent.com/Hamster-ux/pe-distro/main/icon.png",
-      "version": "1.9.0",
+      "version": "1.9.1",
       "address": "121.149.177.201",
       "minecraftVersion": "1.12.2",
       "discord": {
@@ -255,14 +255,15 @@
             }
           ]
         },
+        
         {
-          "id": "generated.library:OptiFine_1.12.2_HD_U_G6_pre1_MOD:0.0.0@jar",
-          "name": "OptiFine_1.12.2_HD_U_G6_pre1_MOD",
+          "id": "generated.library:optifine:1.12.2_HD_U_G6_pre1@jar",
+          "name": "optifine",
           "type": "Library",
           "artifact": {
-            "size": 2456541,
-            "url": "https://raw.githubusercontent.com/Hamster-ux/PE-distro/main/servers/PE-1.12.2/libraries/OptiFine_1.12.2_HD_U_G6_pre1_MOD.jar",
-            "MD5": "411c3c323b60df971fd772f3b871c20b"
+            "size": 2668221,
+            "url": "https://raw.githubusercontent.com/Hamster-ux/PE-distro/main/servers/PE-1.12.2/libraries/optifine-1.12.2_HD_U_G6_pre1.jar",
+            "MD5": "9ee4100b8d430f8c8aa82e6f3b13b87e"
           }
         },
         {
