@@ -12,7 +12,7 @@
       "name": "PE (Minecraft 1.12.2)",
       "description": "PE Running Minecraft 1.12.2 (Forge v14.23.5.2860)",
       "icon": "https://raw.githubusercontent.com/Hamster-ux/pe-distro/main/icon.png",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "address": "121.149.177.201",
       "minecraftVersion": "1.12.2",
       "discord": {
@@ -304,7 +304,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 362869583,
-            "url": "https://raw.githubusercontent.com/Hamster-ux/PE-distro/main/servers/PE-1.12.2/forgemods/required/Pixelmon-1.12.2-8.4.2-universal.jar",
+            "url": "https://cdn.modrinth.com/data/59ZceYlU/versions/8.4.2/Pixelmon-1.12.2-8.4.2-universal.jar",
             "MD5": "afeebcf34f03598ff24078add2419228"
           }
         },
