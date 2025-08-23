@@ -12,7 +12,7 @@
       "name": "PE (Minecraft 1.12.2)",
       "description": "PE Running Minecraft 1.12.2 (Forge v14.23.5.2860)",
       "icon": "https://raw.githubusercontent.com/Hamster-ux/pe-distro/main/icon.png",
-      "version": "1.9.2",
+      "version": "1.0.1",
       "address": "121.149.177.201",
       "minecraftVersion": "1.12.2",
       "discord": {
@@ -255,15 +255,67 @@
             }
           ]
         },
-        
         {
-          "id": "generated.library:optifine:1.12.2_HD_U_G6_pre1@jar",
-          "name": "optifine",
+          "id": "moe.plushie:armourers_workshop:1.12.2-0.51.0@jar",
+          "name": "Armourer's Workshop",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2678747,
+            "url": "https://raw.githubusercontent.com/Hamster-ux/PE-distro/main/servers/PE-1.12.2/forgemods/required/Armourers-Workshop-1.12.2-0.51.0.jar",
+            "MD5": "12954551f39bed840b32fd8be8fddb54"
+          }
+        },
+        {
+          "id": "noppes.npcs:customnpcs:1.12@jar",
+          "name": "CustomNPCs",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 9911871,
+            "url": "https://raw.githubusercontent.com/Hamster-ux/PE-distro/main/servers/PE-1.12.2/forgemods/required/customnpcs-1.12.jar",
+            "MD5": "3ab1a5c4b069d574631da5bc1880ebf7"
+          }
+        },
+        {
+          "id": "creo.mod:koreanchat:1.12-1.9@jar",
+          "name": "Korean Chat",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 30763,
+            "url": "https://raw.githubusercontent.com/Hamster-ux/PE-distro/main/servers/PE-1.12.2/forgemods/optionalon/koreanchat-1.12-1.9.jar",
+            "MD5": "91492de16021a4f7018eb5d523f45fc2"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "net.optifine:optifine:1.12.2_HD_U_G6_pre1@jar",
+          "name": "OptiFine 1.12.2_HD_U_G6_pre1",
           "type": "ForgeMod",
           "artifact": {
             "size": 2668221,
             "url": "https://raw.githubusercontent.com/Hamster-ux/PE-distro/main/servers/PE-1.12.2/forgemods/required/optifine-1.12.2_HD_U_G6_pre1.jar",
             "MD5": "9ee4100b8d430f8c8aa82e6f3b13b87e"
+          }
+        },
+        {
+          "id": "com.pixelmonmod:pixelmon:1.12.2-8.4.2-pipe10697@jar",
+          "name": "Pixelmon",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 362869583,
+            "url": "https://raw.githubusercontent.com/Hamster-ux/PE-distro/main/servers/PE-1.12.2/forgemods/required/Pixelmon-1.12.2-8.4.2-universal.jar",
+            "MD5": "afeebcf34f03598ff24078add2419228"
+          }
+        },
+        {
+          "id": "options.txt",
+          "name": "options.txt",
+          "type": "File",
+          "artifact": {
+            "size": 2173,
+            "url": "https://raw.githubusercontent.com/Hamster-ux/PE-distro/main/servers/PE-1.12.2/files/options.txt",
+            "path": "options.txt"
           }
         },
         {
@@ -275,6 +327,16 @@
             "url": "https://raw.githubusercontent.com/Hamster-ux/PE-distro/main/servers/PE-1.12.2/files/resourcepacks/res.zip",
             "MD5": "3f8c733142e458ba7da123aa03543173",
             "path": "resourcepacks/res.zip"
+          }
+        },
+        {
+          "id": "servers.dat",
+          "name": "servers.dat",
+          "type": "File",
+          "artifact": {
+            "size": 67,
+            "url": "https://raw.githubusercontent.com/Hamster-ux/PE-distro/main/servers/PE-1.12.2/files/servers.dat",
+            "path": "servers.dat"
           }
         },
         {
