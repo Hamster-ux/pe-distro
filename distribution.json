@@ -12,7 +12,7 @@
       "name": "PE (Minecraft 1.12.2)",
       "description": "PE Running Minecraft 1.12.2 (Forge v14.23.5.2860)",
       "icon": "https://raw.githubusercontent.com/Hamster-ux/pe-distro/main/icon.png",
-      "version": "1.0.3",
+      "version": "1.0.4",
       "address": "121.149.177.201",
       "minecraftVersion": "1.12.2",
       "discord": {
@@ -261,8 +261,11 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 2678747,
-            "url": "https://raw.githubusercontent.com/Hamster-ux/PE-distro/main/servers/PE-1.12.2/forgemods/required/Armourers-Workshop-1.12.2-0.51.0.jar",
+            "url": "https://raw.githubusercontent.com/Hamster-ux/PE-distro/main/servers/PE-1.12.2/forgemods/optionaloff/Armourers-Workshop-1.12.2-0.51.0.jar",
             "MD5": "12954551f39bed840b32fd8be8fddb54"
+          },
+          "required": {
+            "value": true
           }
         },
         {
