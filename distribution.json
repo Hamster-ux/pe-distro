@@ -12,7 +12,7 @@
       "name": "PE (Minecraft 1.12.2)",
       "description": "PE Running Minecraft 1.12.2 (Forge v14.23.5.2860)",
       "icon": "https://raw.githubusercontent.com/Hamster-ux/pe-distro/main/icon.png",
-      "version": "1.0.4",
+      "version": "1.0.5",
       "address": "121.149.177.201",
       "minecraftVersion": "1.12.2",
       "discord": {
@@ -265,7 +265,8 @@
             "MD5": "12954551f39bed840b32fd8be8fddb54"
           },
           "required": {
-            "value": true
+            "value": false,
+            "def": false
           }
         },
         {
